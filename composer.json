@@ -1,0 +1,31 @@
+{
+    "name": "locastic/tisak-paket-soap",
+    "type": "library",
+    "description": "Tisak (paketomat) paket soap. Package generated from main.wsdl using wsdltophp/packagegenerator",
+    "keyword": ["tisak", "paket", "soap", "paketomat", "kiosk", "php"],
+    "homepage": "http://www.locastic.com",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "locastic",
+            "homepage": "http://locastic.com",
+            "email": "info@locastic.com"
+        },
+        {
+            "name": "Antonio Peric-Mazar",
+            "email": "antonio@locastic.com",
+            "homepage": "http://locastic.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Locastic\\PaketTisakSoap\\": "./src/"
+        }
+    }
+}
